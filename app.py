@@ -44,6 +44,10 @@ remove_files(7)
 
 
 st.title("Reconocimiento Óptico de Caracteres")
+
+# Imagen pequeña debajo del título
+st.image("perrito.jpg", width=150)
+
 st.subheader("Elige si quieres tomar una foto o cargarla de tus archivos")
 
 cam_ = st.checkbox("Usar Cámara")
@@ -178,10 +182,3 @@ with st.sidebar:
           if display_output_text:
               st.markdown(f"## Texto de salida:")
               st.write(f" {output_text}")
-
-
-
-
- 
-    
-    
